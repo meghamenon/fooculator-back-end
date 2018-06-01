@@ -7,7 +7,8 @@ var menuData = [
 		main: ['Chicken' , 'Fish'],
 		sides: ['Soup', 'Salad'],
 		desserts: ['Cake', 'IceCream'],
-		wine: ['Red']
+		wine: ['Red'],
+		numberOfGuests: 3
 	}
 	
 ]

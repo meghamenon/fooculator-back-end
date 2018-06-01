@@ -3,10 +3,12 @@ Schema = mongoose.Schema;
 
 var MenuSchema = new Schema({
 	appetizers: [],
-	main: [],
+	mains: [],
 	sides: [],
 	desserts: [],
-	wine: [] 
+	wine: [],
+	numberOfGuests: Number,
+	quantity: Number
 });
 
 var Menu = mongoose.model('Menu', MenuSchema);
